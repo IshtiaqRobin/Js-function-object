@@ -16,7 +16,7 @@ const values = Object.values(shoppingCard);
 console.log(values);
 
 //var keys [ 'book', 'sunglass', 'keybord', 'mouse', 'pen', 'bottle' ]
-for(var i = 0; i < keys.length; i++){
+for (var i = 0; i < keys.length; i++) {
     // console.log(keys[i]);
     var propertyName = keys[i];
     var propertyValue = shoppingCard[propertyName];
@@ -24,7 +24,7 @@ for(var i = 0; i < keys.length; i++){
 }
 
 // for in loop
-for(var propertyName in shoppingCard){
+for (var propertyName in shoppingCard) {
     const value = shoppingCard[propertyName];
     console.log(propertyName, value);
 }

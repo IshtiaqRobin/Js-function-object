@@ -5,5 +5,5 @@ function myBioData(){
 }
 
 myBioData();
-console.log('I love my picchi meye');
+console.log('I love my country');
 
